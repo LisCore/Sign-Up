@@ -128,7 +128,7 @@ label {
 }
 
 .submit-field>button {
-    padding: 10px 25px;
+    padding: 10px;
     cursor: pointer;
     letter-spacing: 5px;
     background-color: whitesmoke;
@@ -137,4 +137,22 @@ label {
 
 .submit-field>button:hover {
     background-color: white;
+}
+
+.submit-field>p {
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-field>input:focus,
+.second-field>input:focus,
+.third-field>input:focus,
+.fourth-field>input:focus,
+.fifth-field>input:focus,
+.sixth-field>input:focus {
+    outline: whitesmoke;
 }
